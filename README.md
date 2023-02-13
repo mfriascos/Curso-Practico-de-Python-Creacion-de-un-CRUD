@@ -5,6 +5,7 @@ Curso Practico de Python: Creacion de un CRUD
 <h2>Content List</h2>
 
 - [Guía de Instalación y Conceptos Básicos](#guía-de-instalación-y-conceptos-básicos)
+- [Archivos y Slides del Curso Práctico de Python](#archivos-y-slides-del-curso-práctico-de-python)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -368,4 +369,23 @@ En este ejemplo preguntará si es menor que diez. Dado que es menor imprimirá x
 
 * [Slides](https://drive.google.com/file/d/1uAC0egE_U6571mV8gHtHq5ahIbo9vd1e/view)
 
-* [Repositorio](https://github.com/mfriascos/curso_Python3) Completo del Curso en el cual encontrarás todo el proyecto dividido en secciones tal como fue desarrollado
+* [Repositorio](https://github.com/mfriascos/curso_Python3) Completo del Curso en el cual encontrarás todo el proyecto dividido en secciones tal como fue 
+
+## Qué es la Programación? 
+
+Python es uno de los lenguajes más emocionantes de la actualidad y puedes lograr muchas cosas con él. Este curso te va a servir como una introducción al lenguaje. 
+
+<h3>Qué es la Programación</h3>
+
+Es una disciplina que combina parte de otras disciplinas como las Matemáticas, Ingeniería y la Ciencia. Sin embargo, la habilidad más importante es resolver problemas. Es lo que harás todos los días como programador o programadora.
+
+La programación es una secuencia de instrucciones que le damos a la computadora para que haga lo que nosotros deseamos. Podemos construir una aplicación web, móvil, un programa que lleve cohetes a la luna o marte, resolver problemas de finanzas.
+
+La estructura de un programa. Casi todos los programas tienen un input, output, operaciones matemáticas, ejecución condicional y repeticiones
+
+<h3>Objetivos del curso:</h3>
+
+* Aprender a pensar como un Científico de la Computación
+* Aprender a utilizar Python
+* Entender las ventajas y desventajas de Python
+* Aprender a construir una aplicación de línea de comandos.
