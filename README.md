@@ -6,6 +6,7 @@ Curso Practico de Python: Creacion de un CRUD
 
 - [Guía de Instalación y Conceptos Básicos](#guía-de-instalación-y-conceptos-básicos)
 - [Archivos y Slides del Curso Práctico de Python](#archivos-y-slides-del-curso-práctico-de-python)
+- [Por qué Programar con Python ?](#por-qué-programar-con-python)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -389,3 +390,14 @@ La estructura de un programa. Casi todos los programas tienen un input, output, 
 * Aprender a utilizar Python
 * Entender las ventajas y desventajas de Python
 * Aprender a construir una aplicación de línea de comandos.
+
+## Por qué Programar con Python ? 
+
+Python es uno de los mejores lenguajes para principiantes porque tiene una sintaxis clara, una gran comunidad y esto hace que el lenguaje sa muy amigable para los que están iniciando. 
+
+Python está diseñado para ser fácil de usar, a diferencia de otros lenguajes donde la prioridad es ser rápido y eficiente. Python no es de los lenguajes más rápidos, pero casi nunca importa. 
+
+Es el tercer lenguaje, según Github, entre los más populares. En StackOverflow se comenta que es uno de los lenguajes que mayor popularidad está obteniendo. 
+
+**"Python cuando podamos, C++ cuando necesitemos"**
+
