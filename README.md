@@ -8,6 +8,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Archivos y Slides del Curso Práctico de Python](#archivos-y-slides-del-curso-práctico-de-python)
 - [Por qué Programar con Python ?](#por-qué-programar-con-python)
 - [Operadores Matemáticos](#operadores-matemáticos)
+- [Variables y Expresiones](#variables-y-expresiones)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -413,4 +414,23 @@ En **Programación** estos operadores son muy similares a nuestras clases básic
 Los operadores son contextuales, dependen del tipo de valor. Un valor es la representación de una entidad que puede ser manipulada por un programa. 
 
 Podemos conocer el tipo de calor con type() y nos devolverá algo similar a ```<class 'init'>, <class 'float'>, <class 'str'>```. Dependiendo del tipo los operadores van a funcionar de manera diferente. 
+
+## Variables y Expresiones
+
+Una variable es simplemente el contenedor de un valor. Es una forma de decirle a la computadora de que nos guarde un valor para luego usarlo. 
+
+Python es un lenguaje **dinámico**, este concepto de privado y público se genera por convenciones del lenguaje. En programación el signo ```=```significa asignación. 
+
+Si una variable está en mayúscula, usualmente se refiere a una constate, no debería resignarse . Es una conveción. 
+
+<h3>Reglas de Variables</h3>
+
+* Pueden contener números y letras 
+* No deben comenzar con número
+* Múltiples palabras se unen con _
+* No se puede utilizar palabras reservadas
+
+Expresiones son instrucciones para el interprete para evaluar la expresión. Los enunciados tienen efectos dentro del programa, como ```print```que genera un **output**
+
+**PEMDAS** = Paréntesis, Exponente, Multiplicación-División, Adición-Sustracción. 
 
