@@ -434,3 +434,11 @@ Expresiones son instrucciones para el interprete para evaluar la expresión. Los
 
 **PEMDAS** = Paréntesis, Exponente, Multiplicación-División, Adición-Sustracción. 
 
+## Presentación del Proyecto 
+
+Un vistazo al proyectode línea de comandos llamado Platzi Ventas la cual nos va a servir para manejar clientes, ventas, inventarios y generar algunos reportes. 
+
+Desde la línea de comandos podemos crear un archivo con ```touch [nombre-del-archivo]```.
+
+Escribiremos el primer archivo ```main.py```. 
+
