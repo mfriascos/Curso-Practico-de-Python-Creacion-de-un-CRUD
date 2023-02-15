@@ -7,6 +7,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Guía de Instalación y Conceptos Básicos](#guía-de-instalación-y-conceptos-básicos)
 - [Archivos y Slides del Curso Práctico de Python](#archivos-y-slides-del-curso-práctico-de-python)
 - [Por qué Programar con Python ?](#por-qué-programar-con-python)
+- [Operadores Matemáticos](#operadores-matemáticos)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -400,4 +401,16 @@ Python está diseñado para ser fácil de usar, a diferencia de otros lenguajes 
 Es el tercer lenguaje, según Github, entre los más populares. En StackOverflow se comenta que es uno de los lenguajes que mayor popularidad está obteniendo. 
 
 **"Python cuando podamos, C++ cuando necesitemos"**
+
+## Operadores Matemáticos 
+
+En **Programación** estos operadores son muy similares a nuestras clases básicas de matemáticas. 
+
+* ```//```: Es división de entero, básicamente tiramos la parte decimal 
+* ```%```: Es el residuo de la división, lo que te sobra. 
+* ```**```: Exponente
+
+Los operadores son contextuales, dependen del tipo de valor. Un valor es la representación de una entidad que puede ser manipulada por un programa. 
+
+Podemos conocer el tipo de calor con type() y nos devolverá algo similar a ```<class 'init'>, <class 'float'>, <class 'str'>```. Dependiendo del tipo los operadores van a funcionar de manera diferente. 
 
