@@ -10,6 +10,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Operadores Matemáticos](#operadores-matemáticos)
 - [Variables y Expresiones](#variables-y-expresiones)
 - [Presentación del Proyecto](#presentación-del-proyecto)
+- [Funciones](#funciones)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -442,4 +443,37 @@ Un vistazo al proyectode línea de comandos llamado Platzi Ventas la cual nos va
 Desde la línea de comandos podemos crear un archivo con ```touch [nombre-del-archivo]```.
 
 Escribiremos el primer archivo ```main.py```. 
+
+## Funciones 
+
+En el contexto de la programación las funciones son simplemente una agrupación de enunciados (**statments**) que tienen un nombre, debe ser descriptivo, pueden tener parámetros y puede regresar un valor después que se generó el cómputo. 
+
+Python es un lenguaje que se conoce como *batteries include* (baterías incluidas) que signidica que tienen una librería estándar con muchas funciones y librerías. 
+
+Para declarar funciones que no son las globales, las *built-in functions*, necesitamos importar un módulo. Con el keyword ```def```declaramos una función. 
+
+<p align="center"><img width=85% src="./pictures/built-in-functions.webp"></p>
+
+Información acerca de las built-in, se encuentra [aquí](https://docs.python.org/3/library/functions.html)
+
+<h3>Funciones Lambda</h3>
+
+Muchas veces llamadas "funciones anónimas", las funciones lambda en Python, no son más que una forma de definir una función común y corriente, de una única instrucción de código, en una única línea.
+
+Es decir, una función lambda es la forma de definir una función que tradicionalmente podría escribirse de forma común, en una sola línea de código. Pero esto, solo podrá hacerse con aquellas funciones cuyo algoritmo, no posea más de una instrucción.
+
+La siguiente función:
+
+```python 
+def mifuncion(nombre):
+	return "Hola %s!" % nombre
+```
+
+Con lambda, podría definirse en una sola línea de código, ya que posee una única instrucción.
+
+Para ello, se utilizaría la siguiente instrucción:
+
+```python
+mifuncion = lambda nombre: "Hola %s! % nombre
+```
 
