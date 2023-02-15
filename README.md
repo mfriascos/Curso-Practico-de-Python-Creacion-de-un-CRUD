@@ -9,6 +9,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Por qué Programar con Python ?](#por-qué-programar-con-python)
 - [Operadores Matemáticos](#operadores-matemáticos)
 - [Variables y Expresiones](#variables-y-expresiones)
+- [Presentación del Proyecto](#presentación-del-proyecto)
 
 
 ## Guía de Instalación y Conceptos Básicos
