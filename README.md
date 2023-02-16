@@ -12,6 +12,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Presentación del Proyecto](#presentación-del-proyecto)
 - [Funciones](#funciones)
 - [Usando Funciones en Nuestro Proyecto](#usando-funciones-en-nuestro-proyecto)
+- [Operadores Lógicos](#operadores-lógicos)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -480,4 +481,19 @@ mifuncion = lambda nombre: "Hola %s! % nombre
 
 ## Usando Funciones en Nuestro Proyecto. 
 
-[Añadimos funciones al archivo main.py](/Platzi_Ventas/main.py)
+Añadimos funciones al archivo [main.py](/Platzi_Ventas/main.py)
+
+## Operadores Lógicos 
+
+Para compreender el flujo de nuestro programa debemos entender un poco sobre estructuras y expresiones booleanas 
+
+* ```==``` Se refiere a igualdad, o comparación
+* ```!=``` No hay igualdad
+* ```>``` Mayor que 
+* ```<``` Menor que
+* ```>=``` Mayor o igual 
+* ```<=``` Menor o igual
+* ```and``` Unicamente es verdadero cuando **ambos** valores son verdaderos
+* ```or``` Es verdadero cuando uno de los dos valores es verdadero
+* ```not``` Es lo contrario al valor. Falso es verdadero. Verdadero es falso
+
