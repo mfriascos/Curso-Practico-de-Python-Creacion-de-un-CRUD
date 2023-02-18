@@ -17,6 +17,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Strings en Python](#strings-en-python)
 - [Operaciones con Strings en Python](#operaciones-con-strings-en-python)
 - [Operaciones con Strings y el Comando Update](#operaciones-con-strings-y-el-comando-update)
+- [Operaciones con Strings y el Comando Delete](#operaciones-con-strings-y-el-comando-delete)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -588,6 +589,17 @@ Los strings tienen varios métodos que nosotros podemos utilizar.
 ## Operaciones con Strings y el Comando Update 
 
 En esta clase seguiremos construyendo nuestro proyecto **PlatziVentas**, agregaremos el comando **update** para poder actualizar nuestros clientes y pondremos en práctica lo aprendido en clases anteriores sobre Strings.
+
+## Operaciones con Strings y el Comando Delete
+
+CRUD 
+
+**[C]reate
+[R]ead
+[U]pdate
+[D]elete**
+
+Es un modelo muy utilizado por cientificos de computadores. Se usa mucho en aplicaciones web, para construir modelos usables. 
 
 
 

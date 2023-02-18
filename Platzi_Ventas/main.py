@@ -1,5 +1,6 @@
 clients = 'Pablo,Ricardo,'
 
+
 def create_client(client_name):
     global clients
     if client_name not in clients:
@@ -11,7 +12,7 @@ def create_client(client_name):
 
 def list_clients():
     global clients
-    print(clients)
+    print(clients+'\n')
 
 
 def _add_comma():
@@ -22,14 +23,28 @@ def _add_comma():
 def _get_client_name():
     return input("\nWhat is the client name? ")
 
+
+def _client_not_found():
+    print("\nClient is not in clients list\n")
+
+
 def update_client(client_name,updated_client_name):
     global clients
 
     if client_name in clients:
-        clients = clients.replace(client_name+',',updated_client_name+',')
+        clients = clients.replace(client_name,updated_client_name)
     else:
-        print("Client is not in clients list")
-        list_clients()
+        _client_not_found()
+
+
+def delete_client(client_name):
+    global clients
+
+    if client_name in clients:
+        clients = clients.replace(client_name+',','')
+    else:
+        _client_not_found()
+
 
 def _print_welcome():
     print('\nWELCOME TO PLATZI VENTAS\n')
@@ -38,6 +53,7 @@ def _print_welcome():
     print("\n[C]reate client")
     print('[U]pdate client')
     print('[D]elete client\n')
+
 
 if __name__ == '__main__':
     _print_welcome()
@@ -48,7 +64,9 @@ if __name__ == '__main__':
         create_client(_get_client_name())
         list_clients()
     elif command == 'D':
-        pass
+        client_name = _get_client_name()
+        delete_client(client_name)
+        list_clients()
     elif command == 'U':
         client_name = _get_client_name()
         updated_client_name = input('What is the updated client name? ')
