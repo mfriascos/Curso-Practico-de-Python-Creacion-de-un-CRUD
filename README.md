@@ -18,6 +18,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Operaciones con Strings en Python](#operaciones-con-strings-en-python)
 - [Operaciones con Strings y el Comando Update](#operaciones-con-strings-y-el-comando-update)
 - [Operaciones con Strings y el Comando Delete](#operaciones-con-strings-y-el-comando-delete)
+- [Operaciones con Strings: Slices en Python](#operaciones-con-strings-slices-en-python)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -600,6 +601,16 @@ CRUD
 [D]elete**
 
 Es un modelo muy utilizado por cientificos de computadores. Se usa mucho en aplicaciones web, para construir modelos usables. 
+
+## Operaciones con Strings: Slices en Python
+
+Python tiene una de las sintaxis más poderosas para manipular secuencias, esta sintaxis se llama **slice** (Rebanada en español)
+
+Se define de la siguiente forma:
+
+```python
+secuencia[comienzo:final:pasos]
+```
 
 
 
