@@ -14,6 +14,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Usando Funciones en Nuestro Proyecto](#usando-funciones-en-nuestro-proyecto)
 - [Operadores Lógicos](#operadores-lógicos)
 - [ Esctructuras Condicionales](#esctructuras-condicionales)
+- [Strings en Python](#strings-en-python)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -502,5 +503,17 @@ Para compreender el flujo de nuestro programa debemos entender un poco sobre est
 
 En Python es importante la **Indentación**, de esa manera identifica donde empieza y termina un bloque de código sin necesidad de llaves {} como en otros lenguajes. 
 
-Continuación del archivo main en el commit "Estructuras condicionales"
+Continuación del archivo main en el commit "Estructuras condicionales". 
+
+## Strings en Python 
+
+Los strings o cadenas de texto tienen un comportamiento distinto a otros tipos como los booleanos, enteros, floats. Las cadenas son secuencias de caracteres, todas se pueden acceder a través de un índice. 
+
+Podemos saber la longitud de un *string*, cuántos caracteres se encuentran en esa secuencia. Lo podemos saber con la ***built-in funtion*** global llamada ```len```. 
+
+Algo importante a tener en cuanta cuando hablamos se *strings* es que estos son inmutables, esto significa que cada vez que modificamos uno estamos generando un nuevo objeto en memoria. 
+
+El índice de la primera letra es 0, en la programación se empieza a contar desde 0
+
+
 
