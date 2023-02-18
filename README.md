@@ -11,6 +11,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Variables y Expresiones](#variables-y-expresiones)
 - [Presentación del Proyecto](#presentación-del-proyecto)
 - [Funciones](#funciones)
+- [Usando Funciones en Nuestro Proyecto](#usando-funciones-en-nuestro-proyecto)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -477,3 +478,6 @@ Para ello, se utilizaría la siguiente instrucción:
 mifuncion = lambda nombre: "Hola %s! % nombre
 ```
 
+## Usando Funciones en Nuestro Proyecto. 
+
+[Añadimos funciones al archivo main.py](/Platzi_Ventas/main.py)
