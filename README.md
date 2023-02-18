@@ -13,6 +13,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Funciones](#funciones)
 - [Usando Funciones en Nuestro Proyecto](#usando-funciones-en-nuestro-proyecto)
 - [Operadores Lógicos](#operadores-lógicos)
+- [ Esctructuras Condicionales](#esctructuras-condicionales)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -496,4 +497,10 @@ Para compreender el flujo de nuestro programa debemos entender un poco sobre est
 * ```and``` Unicamente es verdadero cuando **ambos** valores son verdaderos
 * ```or``` Es verdadero cuando uno de los dos valores es verdadero
 * ```not``` Es lo contrario al valor. Falso es verdadero. Verdadero es falso
+
+## Esctructuras Condicionales 
+
+En Python es importante la **Indentación**, de esa manera identifica donde empieza y termina un bloque de código sin necesidad de llaves {} como en otros lenguajes. 
+
+Continuación del archivo main en el commit "Estructuras condicionales"
 
