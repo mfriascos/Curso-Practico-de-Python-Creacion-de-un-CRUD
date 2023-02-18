@@ -16,6 +16,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [ Esctructuras Condicionales](#esctructuras-condicionales)
 - [Strings en Python](#strings-en-python)
 - [Operaciones con Strings en Python](#operaciones-con-strings-en-python)
+- [Operaciones con Strings y el Comando Update](#operaciones-con-strings-y-el-comando-update)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -583,6 +584,10 @@ Los strings tienen varios métodos que nosotros podemos utilizar.
 ```help```: nos imprime en pantalla el docstrings o comentario de ayuda o instrucciones que posee la función. Casi todas las funciones en Python las tienen.
 
 [**Dunder methods**](https://docs.python.org/3/reference/datamodel.html#special-method-names): También conocidos como **magic methods** (métodos mágicos) o **special methods** (métodos especiales)
+
+## Operaciones con Strings y el Comando Update 
+
+En esta clase seguiremos construyendo nuestro proyecto **PlatziVentas**, agregaremos el comando **update** para poder actualizar nuestros clientes y pondremos en práctica lo aprendido en clases anteriores sobre Strings.
 
 
 
