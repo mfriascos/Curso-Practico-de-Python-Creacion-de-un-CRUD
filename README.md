@@ -612,6 +612,21 @@ Se define de la siguiente forma:
 secuencia[comienzo:final:pasos]
 ```
 
+## For Loops
+
+Las iteraciones es uno de los comceptos más importantes en la programación. En Python existen muchas maneras de iterar pero las dos principales son los **for loops** y **while loops**. 
+
+Los **for loops** nos permiten iterar a través de una secuencia y los while loops nos permiten iteran hasta cuando una condición se vuelva falsa. 
+
+<h3>for loops</h3>
+
+* Tienen dos keywords ```break```y ```continue```que nos permiten salir anticipadamente de la iteración
+* Se usan cuando se quiere ejecutar varias veces una o varias instrucciones. 
+* for [variable] in [secuencia]: 
+Es una convención usar la letra ```i```como variable en nuestro for, pero podemos colocar la que queramos. 
+
+```range```: Nos da un objeto rango, es un iterador sobre el cual podemos generar secuencias. 
+
 
 
 
