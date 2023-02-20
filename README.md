@@ -24,6 +24,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [Iterators and Generators](#iterators-and-generators)
 - [Uso de Listas](#uso-de-listas)
 - [Operaciones con Listas](#operaciones-con-listas)
+- [Agregando Listas a Nuestro Proyecto](#agregando-listas-a-nuestro-proyecto)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -784,3 +785,8 @@ a=[0,2,4,6,8]
 len(a)=5
 ```
 
+## Agregando Listas a Nuestro Proyecto
+
+<h3>Notas**</h3>
+
+```index()``` Es un método que busca la posición de un elemento en una lista y nos regresa su posición. Y si hay varios elementos iguales, nos regresa el primer elemento. 
