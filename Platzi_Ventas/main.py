@@ -1,8 +1,11 @@
+import sys
+
 clients = 'Pablo,Ricardo,'
 
 
 def create_client(client_name):
     global clients
+
     if client_name not in clients:
         clients += client_name
         _add_comma()
@@ -12,16 +15,32 @@ def create_client(client_name):
 
 def list_clients():
     global clients
-    print(clients+'\n')
+
+    print('\n'+clients+'\n')
 
 
 def _add_comma():
     global clients
+
     clients += ','
 
 
 def _get_client_name():
-    return input("\nWhat is the client name? ")
+    client_name = None
+
+    while not client_name:
+        client_name = input("\nWhat is the client name? ").capitalize()
+        
+        if client_name == 'Exit':
+            client_name = None
+            break;
+
+    if not client_name:
+        print('\n')
+        sys.exit()
+
+    return client_name
+
 
 
 def _client_not_found():
@@ -88,6 +107,7 @@ if __name__ == '__main__':
     elif command == 'S':
         client_name = _get_client_name()
         found = search_client(client_name)
+
         if found:
             print("\nThe client is in client's list\n")
         else:

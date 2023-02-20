@@ -19,6 +19,8 @@ Curso Practico de Python: Creacion de un CRUD
 - [Operaciones con Strings y el Comando Update](#operaciones-con-strings-y-el-comando-update)
 - [Operaciones con Strings y el Comando Delete](#operaciones-con-strings-y-el-comando-delete)
 - [Operaciones con Strings: Slices en Python](#operaciones-con-strings-slices-en-python)
+- [For Loops](#for-loops)
+- [While Loops](#while-loops)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -627,7 +629,11 @@ Es una convención usar la letra ```i```como variable en nuestro for, pero podem
 
 ```range```: Nos da un objeto rango, es un iterador sobre el cual podemos generar secuencias. 
 
+## While Loops
 
+Al igual que las For Loops, las while loops nos sirve para iterar, pero las for loops nos sirve para iterar a lo largo de una secuencia mientras que las while loops nos sirve para iterar mientras una condición sea verdadera. 
+
+Si no tenemos un mecanismo para convertir el mecanismo en falsedad, entonces nuestro while loop se irá al infinito (infinite loop).
 
 
 
