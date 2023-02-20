@@ -23,6 +23,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [While Loops](#while-loops)
 - [Iterators and Generators](#iterators-and-generators)
 - [Uso de Listas](#uso-de-listas)
+- [Operaciones con Listas](#operaciones-con-listas)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -704,3 +705,82 @@ weights = [12,18,24,34,50]
 receta = ['Ensalada',2,'Lechugas',5,'Jitomates']
 
 ```
+
+## Operaciones con Listas 
+
+Ahora que ya entiendes cómo funcionan las listas, podemos ver qué tipo de operaciones y métodos podemos utilizar para modificarlas, manipularlas y realizar diferentes tipos de cómputos con esta Estructura de Datos.
+
+* El operador **+(suma)** concatena dos o más listas.
+* El operador ***(multiplicación)** repite los elementos de la misma lista tantas veces los queramos multiplicar
+Sólo podemos utilizar **+(suma) y *(multiplicación)**.
+
+Las listas tienen varios métodos que podemos utilizar.
+
+* ```append``` nos permite añadir elementos a listas. Cambia el tamaño de la lista.
+* ```pop``` nos permite sacar el último elemento de la lista. También recibe un índice y esto nos permite elegir qué elemento queremos eliminar.
+* ```sort``` modifica la propia lista y ordenarla de mayor a menor. Existe otro método llamado sorted, que también ordena la lista, pero genera una nueva instancia de la lista
+* ```del``` nos permite eliminar elementos vía indices, funciona con slices
+* ```remove``` nos permite es pasarle un valor para que Python compare internamente los valores y determina cuál de ellos hace match o son iguales para eliminarlos.
+
+<h3>Resume</h3>
+
+Suma (+) Concatena dos o más listas:
+```
+a=[1,2]
+b=[3,4]
+a + b --> [1,2,3,4]
+```
+Multiplicación (*) Repite la misma lista:
+```
+a=[1,2]
+a * 2 —> [1,2,1,2]
+```
+Añadir elemento al final de la lista:
+```
+a=[1]
+a.append(2)=[1,2]
+```
+Eliminar elemento al final de la lista:
+```
+a=[1,2]
+b=a.pop()
+a=[1]
+```
+Eliminar elemento dado un indice:
+```
+a=[1,2]
+b=a.pop(1)
+a=[2]
+```
+Ordenar lista de menor a mayor, esto modifica la lista inicial
+```
+a=[3,8,1]
+a.sort() —> [1,3,8]
+```
+Ordenar lista de menor a mayor, esto NO modifica la lista inicial
+```
+a=[3,8,1]
+a.sorted() —> [1,3,8]
+```
+Eliminar elementos de lista Elimina el elemento de la lista dado su indice
+```
+a=[1,2,3]
+del a[0] —> a[2,3]
+```
+Eliminar elementos de lista Elimina el elemento de la lista dado su valor
+```
+a=[0, 2, 4, 6, 8]
+a.remove(6)
+a=[0, 2, 4, 8]
+```
+Range creacion de listas en un rango determinado
+```
+a=(list(range(0,10,2))) -->crea un conteo desde 0 hasta 10 en pasos de 2 en 2.
+a=[0,2,4,6,8]
+```
+Tamaño lista len Devuelve el valor del tamaño de la lista:
+```
+a=[0,2,4,6,8]
+len(a)=5
+```
+
