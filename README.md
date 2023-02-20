@@ -22,6 +22,7 @@ Curso Practico de Python: Creacion de un CRUD
 - [For Loops](#for-loops)
 - [While Loops](#while-loops)
 - [Iterators and Generators](#iterators-and-generators)
+- [Uso de Listas](#uso-de-listas)
 
 
 ## Guía de Instalación y Conceptos Básicos
@@ -671,3 +672,35 @@ double_fib_nums = [num * 2 for num in fib1] # no va a funcionar
 double_fib_nums = [num * 2 for num in fibonacci(30)] # sí funciona
 ```
 
+## Uso de Listas 
+
+Python y todos los lenguajes nos ofrecen constructos mucho más poderosos, haciendo que el desarrollo de nuestro software sea
+
+* Más sofisticado
+* Más legible
+* Más fácil de implementar
+
+Estos constructos se llaman Estructuras de Datos que nos permiten agrupar de distintas maneras varios valores y elementos para poderlos manipular con mayor facilidad.
+
+Las listas las vas a utilizar durante toda tu carrera dentro de la programación e ingeniería de Software.
+
+Las listas son una secuencia de valores. A diferencia de los strings, las listas pueden tener cualquier tipo de valor. También, a diferencia de los strings, son mutables, podemos agregar y eliminar elementos.
+
+En Python, las listas son referenciales. Una lista no guarda en memoria los objetos, sólo guarda la referencia hacia donde viven los objetos en memoria
+
+Se inician con ```[]``` o con la *built-in function* ```list```.
+
+<h4>Particularidades de las listas</h4>
+
+```python
+countries = ['México','Venezuela','Colombia','Argentina']
+ages = [12,18,24,34,50]
+
+weights = [12,18,24,34,50]
+
+# Las últimas listas viven en diferentes lugares de memoria, 
+# a pesar de que sean iguales 
+
+receta = ['Ensalada',2,'Lechugas',5,'Jitomates']
+
+```
